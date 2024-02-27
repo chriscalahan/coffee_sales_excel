@@ -11,7 +11,7 @@ Key Insights:
 - California proves to be the highest in sales and profit but surprisingly comes from mostly small market areas.
 - The leader in the clubhouse among all major markets goes to the central United States, primarily Illinois.
 - There are products costing the company money with little to no return value. However, these losses are easily identifiable in their corresponding markets.
-- 45% (70 specific locations) of all geographical sales are underperforming.
+- 49% (77 specific locations) of all geographical sales are underperforming.
 
 Analysis:
 Where to start? 
@@ -39,7 +39,7 @@ But before I dive deeper, I need to finish the foundational work. I created anot
  
 Pivot Table number three I’ll dedicate to the granular location data. Like the first Pivot Table, I’ll pull in the sum of the total sales, but instead of showing the purchase date, I’ll show the state. Now the stakeholders will have a better understanding of where their wins and losses are coming from.
  
-I then went a little deeper and pulled in the various area codes for each state to view the partitions of the total sales. The results were interesting. I filtered on the area codes for each state that had a less than 25% share of their state sales. The lowermost 30% in sales of those filtered, equate to 51% of the bottom fourth performing areas. Meaning there are 70 area codes or 45% of all areas that deserve further investigation to determine their profitability and any future actions to benefit the company.
+I then went a little deeper and pulled in the various area codes for each state to view the partitions of the total sales. The results were interesting. I filtered on the area codes for each state that had a less than 25% share of total sales. But that may be misleading as some states have many locations to split up the percentage. So then, I widdle down to the lowermost 30% in sales of those filtered. Those subset of locations equate to 56% of the bottom fourth performing areas. Meaning there are 77 area codes or 49% of all areas that deserve further investigation to determine their profitability and any future actions to benefit the company.
 Furthermore, select products offer no value when sold in designated locations. Caffe Mocha’s, an Espresso product type, for instance, has a negative profit margin when sold in the New York area.
  
 Because this is location data, I can visualize this with a Map chart. Unfortunately, Map charts aren’t an available option within Pivot Charts in Excel. So, I make the data static by copying and pasting the state and sum of sales values beside the Pivot Table and now I can generate a map of the US, highlighting the areas of interest.
@@ -56,6 +56,6 @@ With all that complete, I open a new worksheet, insert some objects and formatti
 
 
 Recap and Suggestions:
--  With 45% of all locations accounting for subpar sales performance, evaluation for further marketing efforts or a decrease in production is needed.
+-  With 49% of all locations accounting for subpar sales performance, evaluation for further marketing efforts or a decrease in production is needed.
 - Significant losses of product sales have been identified by market size and market location. It is recommended that these products no longer be offered in these instances.
 - Sales numbers in Q4 have consistently declined following historically beneficial quarters. More data is required to determine causality and potential correction. Perhaps a marketing adjustment or cutback in expenses for this time period.
